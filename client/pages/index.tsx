@@ -22,9 +22,6 @@ export default function Home() {
                         What do you want to do?
                     </p>
                     <div className="flex justify-between items-center text-blue-500 underline">
-                        <Link href="https://github.com/NiclasTimmeDev/laravel-nextjs-starter">
-                            <a target="_blank">Documentation</a>
-                        </Link>
                         <Link href="/user/login">Login</Link>
                         <Link href="/user/register">Register</Link>
                     </div>
